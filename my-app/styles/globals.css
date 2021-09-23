@@ -18,14 +18,14 @@ a {
 .header {
   width: 100%;
   padding: 2%;
-  background-color: rgb(231, 110, 28);
+  background-color: #cddafd;
   color: white;
   text-align: center;
 }
 
 .display-board {
   width: 100%;
-  background-color: rgb(555, 200, 789);
+  background-color: #dfe7fd;
   padding: 5%;
 }
 
