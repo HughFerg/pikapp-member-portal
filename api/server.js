@@ -4,14 +4,16 @@ const app = express(),
       bodyParser = require("body-parser");
       port = 3080;
 
-// place holder for the data
+// cache user data in memory
 const users = [];
-
-app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../my-app/out')));
+
 
 app.get('/api/users', (req, res) => {
   console.log('api/users called!')
+
+  // TODO: call DAO object here if cache empty
+
   res.json(users);
 });
 
@@ -19,6 +21,9 @@ app.post('/api/user', (req, res) => {
   const user = req.body.user;
   console.log('Adding user:::::', user);
   users.push(user);
+
+  // TODO: put obj to database
+
   res.json("user addedd");
 });
 

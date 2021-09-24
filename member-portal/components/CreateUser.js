@@ -1,9 +1,6 @@
 import React from 'react'
 
-
 const CreateUser = ({onChangeForm, createUser }) => {
-
-
     return(
         <div className="container">
             <div className="row">

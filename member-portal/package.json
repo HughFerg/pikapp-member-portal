@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "firebase": "^8.10.0",
     "next": "10.0.3",
     "react": "17.0.1",
     "react-bootstrap": "^1.4.0",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-firebaseui": "^5.0.2",
+    "reactstrap": "^8.10.0"
   },
   "devDependencies": {
     "express": "^4.17.1",
