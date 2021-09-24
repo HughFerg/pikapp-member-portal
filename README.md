@@ -1,2 +1,4 @@
-# nextjs-nodejs-example
-Example Project on how to develop and build NEXT.js with NodeJS Backend
+# pikapp member portal
+application for chapter members to view and search other member's info
+
+uses firebase for signin/auth and firestore(?) for public user data
